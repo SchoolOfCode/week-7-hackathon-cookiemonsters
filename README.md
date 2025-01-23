@@ -51,7 +51,8 @@ We even had some end game planning sorted!\
 ![overachievement](https://github.com/user-attachments/assets/4cc98caa-49ce-4852-8f3f-766733f335b5)
 
 ### Implementing
-Using the nifty command ```npm create vite@latest . -- --template react``` we had access to a pre-setup react project. Magic. The only drawback was that it had some css, which was a bit annoying later on; it was set across a few different files already and wasn't the most logical. We removed most of it but the enchanting onHover glow effect on the react logo had to stay!
+Using the nifty command ```npm create vite@latest . -- --template react``` we had access to a pre-setup react project. Magic. The only drawback was that it had some css, which was a bit annoying later on; it was set across a few different files already and wasn't the most logical. We removed most of it but the enchanting onHover glow effect on the react logo had to stay!\
+\
 We took a top to bottom approach, initially plotting out our components.```<aside>This actually led to our first issue...as GitHub or maybe VSC auto tidied the empty files during the initial commit!<\aside>```. Having added our component files back in, (this time with content!) we adulted away the excitement and took just a small chunk of code to begin with. Adding the Header and Footer components was pretty smooth sailing. We did run into a snaffoo where we briefly couldn't get the Header to render...it transpired some excitement had got through and it was one of those 'did we save?' moments, still not much time lost.
 
 ![files](https://github.com/user-attachments/assets/fe63da5a-aef3-41da-ad0c-c6e12a22ea7f)
