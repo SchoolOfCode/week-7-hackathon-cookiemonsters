@@ -1,0 +1,12 @@
+footer {
+  background-color: #16181f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-logo {
+    height: 0.65em;
+    width: auto;
+    padding: 0 4.32px;
+}
