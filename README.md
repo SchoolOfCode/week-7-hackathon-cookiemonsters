@@ -42,7 +42,7 @@ npm run dev
 We are a pretty well matched team so we were well aligned on our team values:\
 ![image](https://github.com/user-attachments/assets/da9cf756-6a9b-4cf8-9b7a-dac3102c1998)
 ### Initial Planning
-You can see from the manifesto that we were all pretty determined to plan thoroughly and stay focused so we could hit the ground running. We looked at our first MVPs, explored options for how we would section our componenets and moved on to our component and dependency trees.\
+You can see from the manifesto that we were all pretty determined to plan thoroughly and stay focused so we could hit the ground running. We looked at our first MVPs, explored options for how we would section our components and moved on to our component and dependency trees.\
 ![image](https://github.com/user-attachments/assets/f68e9f91-383e-42f1-8481-85eb6ee4f2f2) ![image](https://github.com/user-attachments/assets/640d76f8-bc91-4801-9a9b-6398686d3912)
 ![image](https://github.com/user-attachments/assets/b033782b-25ab-40c9-8a32-0b4784788adf)\
 \
