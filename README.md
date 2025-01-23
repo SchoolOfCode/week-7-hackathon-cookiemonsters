@@ -49,7 +49,7 @@ You can see from the manifesto that we were all pretty determined to plan thorou
 We even had some end game planning sorted!\
 \
 ![image](https://github.com/user-attachments/assets/4cc98caa-49ce-4852-8f3f-766733f335b5)
-\
+
 
 We took a top to bottom approach, initially plotting out our components.
 
