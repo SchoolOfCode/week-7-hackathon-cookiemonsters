@@ -39,8 +39,10 @@ function App() {
   return (
     <>
       <Header />
-      <Form handleCardAddClick={handleCardAddClick} />
-      <Flashcards cardList={cardList} />
+      <main>
+        <Form handleCardAddClick={handleCardAddClick} />
+        <Flashcards cardList={cardList} />
+      </main>
       <Footer />
     </>
   );
