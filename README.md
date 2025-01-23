@@ -6,7 +6,7 @@
 * [Tech Stack](#tech-stack)
 * [Running the app](#to-run)
 * [Process](#the-process)
-* [What we learnt](#what-i-learnt)
+* [How it went](#how-it-went)
 * [Continued development](#continued-development)
 * [Useful Resources](#useful-resources)
 * [Screenshots](#screenshots)
@@ -56,7 +56,7 @@ We took a top to bottom approach, initially plotting out our components.
 
 
 
-### What we learnt
+### How it went
 
 
 ### Continued development
