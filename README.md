@@ -24,11 +24,12 @@ To enable users to add questions..
 
 
 ## Tech Stack
-Node
-React
-JSX
-JS
-Vite
+🛠️ Node
+🛠️ React
+🛠️ JSX
+🛠️ JS
+🛠️ Vite
+
 
 ## To Run
 
@@ -97,10 +98,16 @@ Plenty of stretch goals:
 
 ### Useful resources
 https://vitest.dev/
+\
 https://react.dev/reference/react-dom/components/input
+\
 https://www.myfonts.com/pages/whatthefont
 
 ## Screenshots
+![Header](https://github.com/user-attachments/assets/5569e343-e4ad-442f-9136-e71c397f02b8)\
+\
+![Snail](https://github.com/user-attachments/assets/73831c57-4ad6-46ca-8e79-5091c24c70b6)
+
 
 
 ## Authors
