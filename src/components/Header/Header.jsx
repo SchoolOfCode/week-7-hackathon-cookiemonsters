@@ -11,10 +11,10 @@ function Header() {
           alt="React logo"
         />
       </a>
-      <h2>React Flashcards</h2>
-      <h5>
+      <h1>React Flashcards</h1>
+      <h4>
         🧠 Expand Your React Knowledge, One Flashcard at a Time! 🐌
-      </h5>
+      </h4>
     </header>
   );
 }
