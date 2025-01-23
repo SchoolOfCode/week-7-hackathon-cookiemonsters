@@ -7,9 +7,12 @@ import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   const [cardList, setCardList] = useState([
-    { question: "question 1", answer: "answer 1" },
-    { question: "question 2", answer: "answer 2" },
-    { question: "question 3", answer: "answer 3" },
+    { question: "What is React?",
+      answer: "React is a JavaScript library aiming to building UIs based on components more seamless." },
+    { question: "What is JSX?",
+      answer: "JSX stands for JavaScript XML. It allows us to write HTML in React." },
+    { question: "How do you create a React component?",
+      answer: "Components can be created as functions or classes that return JSX" },
   ]);
 
   return (
