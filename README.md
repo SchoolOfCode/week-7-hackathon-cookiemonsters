@@ -86,8 +86,8 @@ We had conquered our first few obstacles and decided that before tackling deleti
 We had pair programmed most of the day and for the final stretch we worked on different aspects of the project. CSS overall, CSS flashcards..and this README to help with the presentation!
 
 ### GitHub Pages
-I thought it would be as easy as usual to display our work on github pages but it actually took the better part of our morning session.
-First things first I installed gh-pages package:
+We thought it would be as easy as usual to display our work on github pages but it actually took the better part of our morning session.
+First things first we installed gh-pages package:
 
 ```bash
 $ npm install gh-pages --save-dev
@@ -107,8 +107,8 @@ export default defineConfig({
  base: '/week-7-hackathon-cookiemonsters',
 });
 ```
-and in our vite.config.js file I added a base (in this case the name of the repo). At this point a branch names gh-pages should have shown up on the github page. It didn't.
-I tried every suggestion online, I followed the vite dev documents and github's too and as I was giving up hope I found one page that talked about adding the base to vite.config.js file. The difference was it explicitly said to put the base: command directly above the plugins!
+and in our vite.config.js file we added a base (in this case the name of the repo). At this point a branch names gh-pages should have shown up on the github page. It didn't.
+We tried every suggestion online, we followed the vite dev documents and github's too and as we were giving up hope we found one page that talked about adding the base to vite.config.js file. The difference was it explicitly said to put the base: command directly above the plugins!
 
 ```export default defineConfig({
   base: '/week-7-hackathon-cookiemonsters',
