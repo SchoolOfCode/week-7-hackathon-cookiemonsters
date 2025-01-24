@@ -142,6 +142,19 @@ https://www.myfonts.com/pages/whatthefont
 https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
 ## Screenshots
+![pages](https://github.com/user-attachments/assets/1351b99c-357e-4d0b-9ae5-614737e298d8)\
+\
+![image](https://github.com/user-attachments/assets/b59e0f6d-3885-4ff2-9d56-18639cabfdfb)\
+\
+![image](https://github.com/user-attachments/assets/da8033f5-18a8-4805-9572-e92fe9ddfa66)\
+\
+![image](https://github.com/user-attachments/assets/0d5b68a6-b75b-45ea-bfbc-707fcfe8faa4)
+
+
+
+
+
+\
 ![Header](https://github.com/user-attachments/assets/5569e343-e4ad-442f-9136-e71c397f02b8)\
 \
 ![Snail](https://github.com/user-attachments/assets/73831c57-4ad6-46ca-8e79-5091c24c70b6)
