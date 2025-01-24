@@ -1,18 +1,16 @@
+import "./Form.css";
+
 function Form({ handleCardAddClick }) {
   return (
     <form method="post" onSubmit={(e) => handleCardAddClick(e)}>
-      <label htmlFor="question">Question</label>
-      <input
-        placeholder="write something here"
-        name="question"
-        id="question"
-      ></input>
-      <label htmlFor="answer">Answer</label>
-      <input
-        placeholder="write something here"
-        name="answer"
-        id="answer"
-      ></input>
+      <label className="questionlabel" htmlFor="question">
+        Question:
+      </label>
+      <input name="question" id="question"></input>
+      <label className="answerlabel" htmlFor="answer">
+        Answer:
+      </label>
+      <input name="answer" id="answer"></input>
       <button type="submit">Add</button>
     </form>
   );
