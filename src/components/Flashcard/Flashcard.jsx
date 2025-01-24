@@ -18,6 +18,7 @@ function Flashcard({ cardObj }) {
     <div className={toggleClassCheck} onClick={handleClick}>
       <img src={logoImage} className="thinking" alt="Logo" />
       {isFlipped ? cardObj.answer : cardObj.question}
+      <div id="X">X</div>
     </div>
   );
 }
