@@ -1,7 +1,7 @@
 {
   "homepage": "https://SchoolOfCode.github.io/week-7-hackathon-cookiemonsters",
   "name": "week-7-hackathon-cookiemonsters",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
