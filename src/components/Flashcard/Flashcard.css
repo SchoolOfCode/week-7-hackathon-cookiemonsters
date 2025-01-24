@@ -1,22 +1,13 @@
 .active {
   background-color: #06b1df;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 350px;
-  height: 250px;
-  margin-top: 50px;
-  margin-left: 50px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  margin-top: 35px;
-}
+}  
 
 .inactive {
   background-color: #323949;
+}
+
+.active,
+.inactive {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -29,16 +20,11 @@
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  margin-top: 35px;
-}
+  /* margin-top: 35px; */
+}  
 
+.mindblow,
 .thinking {
-  height: 50px;
-  width: 50px;
-  margin-bottom: 20px;
-}
-
-.mindblow {
   height: 50px;
   width: 50px;
   margin-bottom: 20px;
