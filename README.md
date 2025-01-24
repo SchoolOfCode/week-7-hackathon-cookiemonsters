@@ -77,7 +77,7 @@ The struggle was real while working through the logic for the inputs, we were tr
 \
 ![post](https://github.com/user-attachments/assets/b0e1fc6f-6401-4f7e-a712-545d292938be)![submit](https://github.com/user-attachments/assets/1eecf355-49e8-4890-a77d-95db33c6e96e)\
 \
-We were careful to duplicate our array rather than alter the original ADD WHY AFTER SLEEP! and spirits were high with the break through....\
+We were careful to duplicate our array rather than alter the original and spirits were high with the break through....\
 Then we got some bad news. There are two types of forms, controlled and uncontrolled forms, we had not chosen wisely unfortunately, onChange looked like it would have been the way to go. From what we understood however, the problem mostly relates to input validation and helps make password inputs more secure, we decided on this occasion to move on as we aren't passing anything sensitive and were unlikely to in the future. We did open an issue as a stretch goal to review this code.
 
 ### CSS
