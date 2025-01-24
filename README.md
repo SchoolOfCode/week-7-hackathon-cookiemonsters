@@ -117,7 +117,8 @@ We tried every suggestion online, we followed the vite dev documents and github'
 ```
 Finally, thanks to this internet hero..thank you Rashid Shamloo... everything began to work as intended!\
 \
-![hero](https://github.com/user-attachments/assets/3691225f-ceee-4b8d-a040-7d11df641ac8).
+![hero](https://github.com/user-attachments/assets/c4dab885-a81d-4fb3-8bd3-b5045f86881e)
+
 \
 Link to the page in useful resources.
 
