@@ -1,12 +1,15 @@
 footer {
   background-color: #16181f;
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 
 #footer-logo {
-    height: 0.65em;
+    height: 0.8em;
     width: auto;
-    padding: 0 4.32px;
+    padding: 0 0.35em;
 }
