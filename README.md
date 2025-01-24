@@ -29,6 +29,8 @@ To enable users to add questions..
 🛠️ JSX
 🛠️ JS
 🛠️ Vite
+🛠️ gh-pages
+🛠️ Kanban
 
 
 ## To Run
