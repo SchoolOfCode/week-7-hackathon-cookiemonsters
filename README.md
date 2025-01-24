@@ -82,6 +82,42 @@ Then we got some bad news. There are two types of forms, controlled and uncontro
 We had conquered our first few obstacles and decided that before tackling deleting cards we should have a change of scenery, literally. We did some initial styling but elements were behaving in unexpected ways; a margin of 1px made an enormous gap for example. Quickly concluding we needed to review the vite-added css we took some time to go over it, considering what if anything to keep. Having tidied house the CSS was easier to tackle, elements were behaving as expected and we could spare time to look into things like, what font was used, link in resources to 'What the Font' a helper to find your font by pasting an image of it.\
 We had pair programmed most of the day and for the final stretch we worked on different aspects of the project. CSS overall, CSS flashcards..and this README to help with the presentation!
 
+### GitHub Pages
+I thought it would be as easy as usual to display our work on github pages but it actually took the better part of our morning session.
+First things first I installed gh-pages package:\
+\
+```bash
+$ npm install gh-pages --save-dev
+```
+Then updated our package.json to add a homepage url and the commands to add gh-pages branch to the repo which we could use as the file for ghpages to launch from.
+\
+```"scripts": {
+       ...
+       "predeploy": "npm run build",
+       "deploy": gh-pages -d build",
+       ....
+```
+\
+```
+export default defineConfig({
+  plugins: [react()],
+ base: '/week-7-hackathon-cookiemonsters',
+});
+```
+and in our vite.config.js file I added a base (in this case the name of the repo). At this point a branch names gh-pages should have shown up on the github page. It didn't.
+I tried every suggestion online, I followed the vite dev documents and github's too and as I was giving up hope I found one page that talked about adding the base to vite.config.js file. The difference was it explicitly said to put the base: command directly above the plugins!
+\
+```export default defineConfig({
+  base: '/week-7-hackathon-cookiemonsters',
+  plugins: [react()],
+});
+```
+Finally, thanks to this internet hero..thank you Rashid Shamloo... everything began to work as intended!\
+\
+![hero](https://github.com/user-attachments/assets/3691225f-ceee-4b8d-a040-7d11df641ac8).
+\
+Link to the page in useful resources.
+
 
 ### Take aways
 - Keeping it simple is great
@@ -102,6 +138,8 @@ https://vitest.dev/
 https://react.dev/reference/react-dom/components/input
 \
 https://www.myfonts.com/pages/whatthefont
+\
+https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
 ## Screenshots
 ![Header](https://github.com/user-attachments/assets/5569e343-e4ad-442f-9136-e71c397f02b8)\
