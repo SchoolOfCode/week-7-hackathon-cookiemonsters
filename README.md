@@ -123,7 +123,12 @@ Finally, thanks to this internet hero..thank you Rashid Shamloo... everything be
 \
 ![hero](https://github.com/user-attachments/assets/c4dab885-a81d-4fb3-8bd3-b5045f86881e)
 
+```npm build```
 \
+npm deploy to update.
+\
+```npm deploy```
+
 Link to the page in useful resources.
 
 
