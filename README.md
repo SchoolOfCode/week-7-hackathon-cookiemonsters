@@ -92,7 +92,11 @@ First things first we installed gh-pages package:
 ```bash
 $ npm install gh-pages --save-dev
 ```
-Then updated our package.json to add a homepage url and the commands to add gh-pages branch to the repo which we could use as the file for ghpages to launch from.
+Then updated our package.json to add a homepage url
+\
+```"homepage": <UserName>.github.io/<RepoName>```\
+\
+and the commands to add gh-pages branch to the repo which we could use as the file for ghpages to launch from.
 
 ```"scripts": {
        ...
