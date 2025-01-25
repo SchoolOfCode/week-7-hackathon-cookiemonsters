@@ -97,7 +97,7 @@ Then updated our package.json to add a homepage url and the commands to add gh-p
 ```"scripts": {
        ...
        "predeploy": "npm run build",
-       "deploy": gh-pages -d build",
+       "deploy": gh-pages -d dist",
        ....
 ```
 
