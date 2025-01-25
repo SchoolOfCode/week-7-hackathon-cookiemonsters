@@ -96,7 +96,7 @@ Then updated our package.json to add a homepage url
 \
 ```"homepage": <UserName>.github.io/<RepoName>```\
 \
-and the commands to add gh-pages branch to the repo which we could use as the file for ghpages to launch from.
+and the commands to add a 'gh-pages' branch to the repo, which we could use as the file for ghpages to launch from.
 
 ```"scripts": {
        ...
@@ -122,14 +122,26 @@ We tried every suggestion online, we followed the vite dev documents and github'
 Finally, thanks to this internet hero..thank you Rashid Shamloo... everything began to work as intended!\
 \
 ![hero](https://github.com/user-attachments/assets/c4dab885-a81d-4fb3-8bd3-b5045f86881e)
+Link to the page in useful resources section.
 
-```npm build```
+```npm run predeploy```
+\
 \
 npm deploy to update.
 \
-```npm deploy```
+```npm run deploy```
+\
+At this point you can treat it almost as you normally would to set up a git page.
 
-Link to the page in useful resources.
+- On the main page of your repo go to '⚙️Settings', on the top bar.
+- On the left panel of the page you come to, select 'Pages'.
+- Now in 'GitHub Pages', select 'Deploy from Branch' and in the drop down below, CHOOSE 'GH-PAGES' instead of 'main' as you usually would.
+- Press 'Save' and then its a waiting game. It can take anything from seconds to ten minutes to create.
+
+  To make it easier for visitors to navigate to your newly deployed page from your repo, I'd recommend the following.
+  - On the main repo page, finding the 'About' section, just to the right of the green code button.
+  -  If you look just to the right of the About title there is another ⚙️cog wheel.
+  -   Click there and check the 'Use your github pages Website' box. It will create a link right there 🙌
 
 
 ### Take aways
